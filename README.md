@@ -2,7 +2,7 @@
 
 Simple Docker practice project with a Flask application and PostgreSQL.
 
-![Pipeline Stages](images/docker-flask-postgresql2.png)
+![Web app preview](images/docker-flask-postgresql2.png)
 
 ## Technologies
 
@@ -30,7 +30,12 @@ docker compose up --build
 ## Checking logs
 ```
 docker logs humble-frog
-docker inspect humble-frog
+```
+The Flask application is running inside the Docker container and listening on all container interfaces (`0.0.0.0`) on port `80`.
+
+![Docker container logs](images/logs.png)
+```
+docker inspect humble-frog > container-configuration.json
 ```
 
 ## Enter the container
