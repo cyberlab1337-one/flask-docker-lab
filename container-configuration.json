@@ -1,0 +1,239 @@
+[
+    {
+        "Id": "d23b3373b2283440e06ab0cc71d068f0a604e024fb0b7e1696474e9d5a52464e",
+        "Created": "2026-09-21T11:25:38.905758935Z",
+        "Path": "python",
+        "Args": [
+            "app-sql.py"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 1574,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-09-21T14:21:59.390535388Z",
+            "FinishedAt": "2026-09-21T11:26:25.206473945Z"
+        },
+        "Image": "sha256:83421de3bf7aaacd14a88d1bd02413eb807bbafa648a2880d5bf01985c3c19a3",
+        "ResolvConfPath": "/var/lib/docker/containers/d23b3373b2283440e06ab0cc71d068f0a604e024fb0b7e1696474e9d5a52464e/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/d23b3373b2283440e06ab0cc71d068f0a604e024fb0b7e1696474e9d5a52464e/hostname",
+        "HostsPath": "/var/lib/docker/containers/d23b3373b2283440e06ab0cc71d068f0a604e024fb0b7e1696474e9d5a52464e/hosts",
+        "LogPath": "/var/lib/docker/containers/d23b3373b2283440e06ab0cc71d068f0a604e024fb0b7e1696474e9d5a52464e/d23b3373b2283440e06ab0cc71d068f0a604e024fb0b7e1696474e9d5a52464e-json.log",
+        "Name": "/humble-frog",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "flask-docker-lab_default",
+            "PortBindings": {
+                "80/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8080"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "d23b3373b228",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "5000/tcp": {},
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+                "PYTHON_VERSION=3.12.14",
+                "PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a"
+            ],
+            "Cmd": [
+                "python",
+                "app-sql.py"
+            ],
+            "Image": "flask-docker-lab-web",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "b2345f8c150c5b9e8b429397940fc2bdad7b4516b8ddb05cf73aa72e6683e966",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "db:service_started:false",
+                "com.docker.compose.image": "sha256:433fc3888ec3b6ed77b36fee1ea180a0988c4763fefdcd4c719e543a85571f4f",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "flask-docker-lab",
+                "com.docker.compose.project.config_files": "/home/mkulbat/projects/flask-docker-lab/docker-compose.yaml",
+                "com.docker.compose.project.working_dir": "/home/mkulbat/projects/flask-docker-lab",
+                "com.docker.compose.replace": "humble-frog",
+                "com.docker.compose.service": "web",
+                "com.docker.compose.version": "5.5.1",
+                "desktop.docker.io/wsl-distro": "Ubuntu"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "ee15aef7ab26d222f1b7885254a1a484a2c15b0f49c820fd0d5aa4c84450629e",
+            "SandboxKey": "/var/run/docker/netns/ee15aef7ab26",
+            "Ports": {
+                "80/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "8080"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "8080"
+                    }
+                ]
+            },
+            "Networks": {
+                "flask-docker-lab_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "humble-frog",
+                        "web"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "cef0d1c6a41a8bab4be0127cd9c9a53a5f5d07a9b9b90fbab3c5e6d5cea3af47",
+                    "EndpointID": "0a06dcf6a6f1bd7528c151c479792aa0926ebc7bb091c55341b4b4ccbad01553",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.3",
+                    "MacAddress": "86:9f:3b:97:45:f4",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "humble-frog",
+                        "web",
+                        "d23b3373b228"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:433fc3888ec3b6ed77b36fee1ea180a0988c4763fefdcd4c719e543a85571f4f",
+            "size": 1811,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

@@ -42,7 +42,7 @@ def home():
                     font-size: 48px;
                 }}
 
-                .whale {{
+                .humble-frog {{
                     font-size: 140px;
                 }}
 
@@ -56,8 +56,8 @@ def home():
         <body>
             <h1>Flask running in Docker</h1>
 
-            <div class="whale">
-                🐳
+            <div class="humble-frog">
+                🐸
             </div>
 
             <div class="database">
