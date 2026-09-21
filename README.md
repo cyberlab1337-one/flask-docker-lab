@@ -2,7 +2,7 @@
 
 Simple Docker practice project with a Flask application and PostgreSQL.
 
-![Pipeline Stages](images/docker-flask-postgresql2.pngdocker-flask-postgresql2.png)
+![Pipeline Stages](images/docker-flask-postgresql2.png)
 
 ## Technologies
 
@@ -25,3 +25,16 @@ Simple Docker practice project with a Flask application and PostgreSQL.
 
 ```bash
 docker compose up --build
+```
+
+## Checking logs
+```
+docker logs humble-frog
+docker inspect humble-frog
+```
+
+## Enter the container
+
+```
+docker exec -it humble-frog /bin/sh
+```
